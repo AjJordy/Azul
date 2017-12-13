@@ -1,0 +1,61 @@
+:Author: Jordy A. Faria de Araujo
+:Email: jordyfaria0@gmail.com
+:Date: 26/09/2017
+:Revision: version 1.0
+:License: Private Domain
+
+= Project: Azul
+
+Describe your project
+
+== Step 1: Installation
+Please describe the steps to install this project.
+
+For example:
+
+1. Open this file
+2. Edit as you like
+
+== Step 2: Assemble the circuit
+
+Assemble the circuit following the diagram layout.png attached to the sketch
+
+== Step 3: Load the code
+
+Upload the code contained in this sketch on to your board
+
+=== Folder structure
+
+....
+ Azul                     => Arduino sketch folder
+  ├── Azul.ino            => main Arduino file
+  ├── schematics.png      => (optional) an image of the required schematics
+  ├── layout.png          => (optional) an image of the layout
+  └── ReadMe.adoc         => this file
+....
+
+=== License
+This project is released under a {License} License.
+
+=== Contributing
+To contribute to this project please contact Jordy <jordyfaria0@gmail.com>
+
+=== BOM
+Add the bill of the materials you need for this project.
+
+|===
+|  ID | Part name                    | Quantity
+|  A1 | Arduino Mega                 | 1   
+| MQ-2| Smoke gas sensor             | 1   
+| MQ-7| Carbon Monoxide Sensor       | 1   
+| DHT | Temperature/humidity sensors | 1   
+| DMS | Dust sensor                  | 1   
+|L238N| DC motor drive               | 1  
+| DC  | Motor DC                     | 2  
+|===
+
+
+=== Help
+This document is written in the _AsciiDoc_ format, a markup language to describe documents. 
+If you need help you can search the http://www.methods.co.nz/asciidoc[AsciiDoc homepage]
+or consult the http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]
